@@ -1,5 +1,7 @@
-import enUS from './en-us';
+import englishPackage from './english.json';
+import hindiPackage from './hindi.json';
 
 export default {
-  'en-us': enUS,
+  en: englishPackage,
+  hi: hindiPackage,
 };
